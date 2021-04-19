@@ -9,4 +9,4 @@ function tvema_theme_suggestions_page_alter(array &$suggestions, array $variable
 // Search
 function tvema_form_search_block_form_alter(&$form, $form_state, $form_id) {
   $form['keys']['#attributes']['placeholder'] = t('Поиск...');
-}
+}123
