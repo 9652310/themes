@@ -1,0 +1,29 @@
+name: 'Tvema'
+type: theme
+base theme: bartik
+description: 'Site theme Tvema.ru'
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+regions:
+  header: 'Header'
+  menu: 'Menu'
+  content: 'Content'
+  footer: 'Footer'
+
+features:
+  - comment_user_verification
+  - comment_user_picture
+  - favicon
+  - logo
+  - node_user_picture
+
+libraries:
+  - tvema/global-css
+  - tvema/global-js
+
+stylesheets-remove:
+  - core/assets/vendor/normalize-css/normalize.css
+  - core/modules/system/css/system.module.css
+  - core/modules/system/css/system.theme.css
+  - core/modules/views/css/views.module.css

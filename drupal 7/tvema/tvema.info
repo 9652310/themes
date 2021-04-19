@@ -1,0 +1,27 @@
+name = Tvema
+description = Тема сайта Tvema.ru
+version = 7.26
+core = 7.x
+engine = phptemplate
+
+regions[header] = Шапка
+regions[top_menu] = Верхнее меню
+regions[sidebar_first] = Левая колонка
+regions[sidebar_second] = Правая колонка
+regions[content] = Содержимое
+regions[footer] = Подвал
+
+features[] = logo
+features[] = name
+features[] = slogan
+features[] = node_user_picture
+features[] = comment_user_picture
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+stylesheets[all][] = css/reset.css
+stylesheets[all][] = css/style.css
+stylesheets[all][] = css/responsive.css
+
+scripts[] = js/script.js
